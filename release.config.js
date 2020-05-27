@@ -1,4 +1,13 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-const makeCommonConfig = require('@cycjimmy/config-lib/semanticRelease/15.x/makeCommonConfig');
+const makeConfig = require('@cycjimmy/config-lib/semanticRelease/15.x/makeConfig');
 
-module.exports = makeCommonConfig();
+module.exports = makeConfig({
+  npmOptions: {
+    npmPublish: false,
+  },
+  git: true,
+  gitAssets: [
+    "package.json",
+    "package-lock.json"
+  ]
+});
