@@ -1,6 +1,6 @@
 {
   "name": "@cycjimmy/semantic-github-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Personal semantic-release shareable config for GitHub.",
   "main": "lib/index.config.js",
   "scripts": {
