@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@cycjimmy/config-lib": "^1.6.1",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^19.0.3"
   },
   "peerDependencies": {
     "semantic-release": ">=17.0.7"
